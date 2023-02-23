@@ -2,14 +2,33 @@
   "name": "app",
   "private": "true",
   "dependencies": {
-    "@hotwired/stimulus": "^3.2.1",
-    "@hotwired/turbo-rails": "^7.2.5",
-    "@popperjs/core": "^2.11.6",
-    "bootstrap": "^5.2.3",
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1"
+    "@babel/preset-react": "^7.14.5",
+    "@rails/actioncable": "^6.0.0",
+    "@rails/activestorage": "^6.0.0",
+    "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "5.4.3",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "bootstrap": "4.6",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-emojione": "^5.0.1",
+    "react-redux": "^7.2.5",
+    "react-router-dom": "^5.3.0",
+    "redux": "^4.1.1",
+    "redux-logger": "^3.0.6",
+    "redux-promise": "^0.6.0",
+    "turbolinks": "^5.2.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
   },
   "scripts": {
     "build": "webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.18.6",
+    "webpack-dev-server": "^3"
   }
 }
